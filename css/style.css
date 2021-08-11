@@ -1,12 +1,10 @@
-/* import fonts from fonts.css file */
-@import url(./fonts.css);
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap");
 
 /* css variables */
-@import url(./partials/_variables.css);
+/* @import url(../css/partials/_variables.css); */
 
 /* import global styling */
-@import url(./partials/_global.css);
+/* @import url(../css/partials/_variables.css); */
 
 /* navbar start */
 .navbar-brand {
@@ -345,3 +343,67 @@ footer .container .link a:hover {
     width: 100%;
   }
 }
+
+/* ///////////////////////////////// */
+.text-uppercase {
+  text-transform: uppercase;
+}
+.button {
+  padding: 0.8rem 2.2rem;
+  font: normal 500 16px/20px;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.button.primary-button {
+  background: var(--gradient-color);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background 0.6s ease;
+  box-shadow: var(--box-shadow);
+  font-weight: 700;
+}
+
+.button,
+.primary-button:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+}
+.button.primary-button::after,
+.button.secondary-button::after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background: var(--gradient-color);
+  content: "";
+  z-index: -1;
+  /* border-radius: 4px; */
+}
+.button,
+.secondary-button {
+  background: white;
+  background-clip: padding-box;
+  transition: background 0.6s ease;
+  font-weight: 700;
+}
+.button.secondary-button:hover {
+  background: var(--gradient-color);
+  color: whitesmoke;
+  box-shadow: var(--box-shadow);
+}
+
+p.para {
+  color: var(--text-color);
+  font: normal 500 16px/25px;
+  font-weight: 600;
+}
+.title-h1 {
+  font: normal bolder 39px/40px var(--nav-font);
+}
+
+/* /////////////////////////////////////////// */

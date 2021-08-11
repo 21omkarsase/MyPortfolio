@@ -1,5 +1,4 @@
-/* Global Classes */
-
+/* 
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -26,8 +25,8 @@
   background: whitesmoke;
   background-clip: padding-box;
   color: black;
-}
-.button.primary-button::after,
+} */
+/* .button.primary-button::after,
 .button.secondary-button::after {
   position: absolute;
   top: -2px;
@@ -36,10 +35,10 @@
   right: -2px;
   background: var(--gradient-color);
   content: "";
-  z-index: -1;
-  /* border-radius: 4px; */
-}
-.button,
+  z-index: -1; */
+/* border-radius: 4px; */
+/* } */
+/* .button,
 .secondary-button {
   background: white;
   background-clip: padding-box;
@@ -59,4 +58,4 @@ p.para {
 }
 .title-h1 {
   font: normal bolder 39px/40px var(--nav-font);
-}
+} */
